@@ -21,5 +21,3 @@ authentication(app, client)
 @app.route('/')
 def home():
 	return "Welcome to Backend"
-
-app.run(port=5000)
